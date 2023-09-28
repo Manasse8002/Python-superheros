@@ -7,4 +7,16 @@ class Hero(db.Model):
 
     id = db.Column(db.Integer, primary_key=True)
 
-# add any models you may need. 
+# add any models you may need.
+
+
+ # defining me models
+from flask_sqlalchemy import SQLAlchemy
+
+# Initialize SQLAlchemy 
+db = SQLAlchemy(app)
+
+
+
+
+
